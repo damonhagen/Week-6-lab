@@ -6,13 +6,13 @@ int main()
 {
     int x;
 
-    cout << "Enter your grade!" << endl;
+    cout << "Enter your grade!" << endl; //user enters a grade 
 
     cin >> x;
 
     if (x >= 86)
     {
-        cout << "You got an A!" << endl;
+        cout << "You got an A!" << endl;//logic flow determining which grade is proper for the number grade
     }
 
     else if (x >= 72)
@@ -31,7 +31,7 @@ int main()
     }
     else 
     {
-       cout << "You got an F!" << endl;
+       cout << "You got an F!" << endl;//if the grade doesn't match any  of the else if statements, it defaults to F
     }
 
 return 0;
